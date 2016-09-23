@@ -1,15 +1,28 @@
 body{
-	
-	font-family: Helvetica, Arial, Sans-Serif;
-    background: url("http://s8.postimg.org/8x5x2x8et/sfo_bridge.jpg") center center fixed;
-    background-repeat: no-repeat;
 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    margin: 0px;
-    color:white;
+	font-family: Helvetica, Arial, Sans-Serif;
+   
+}
+.my-container img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+    opacity: 0.6;
+}
+.my-container {
+    position: relative;
+    background: #5C97FF;
+    overflow: hidden;
+}
+.my-container h1 {
+    padding: 50px;
+    text-align: center;
+    z-index: 2;
+    position: relative;
+    color: #fff;
 }
 .top-header{
 	width:100%;
