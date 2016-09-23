@@ -1,0 +1,16 @@
+body{
+	
+	font-family: Helvetica, Arial, Sans-Serif;
+    background: url("http://s8.postimg.org/8x5x2x8et/sfo_bridge.jpg") center center fixed;
+    background-repeat: no-repeat;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0px;
+    color:white;
+}
+.top-header{
+	width:100%;
+}
